@@ -14,6 +14,7 @@
 		4CEFD8131FE19C5B00B0BC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEFD8111FE19C5B00B0BC7F /* LaunchScreen.storyboard */; };
 		4CEFD81E1FE19C5B00B0BC7F /* MN_Driving_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFD81D1FE19C5B00B0BC7F /* MN_Driving_TestTests.swift */; };
 		4CEFD8291FE19C5B00B0BC7F /* MN_Driving_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFD8281FE19C5B00B0BC7F /* MN_Driving_TestUITests.swift */; };
+		4CEFD8371FE19C7F00B0BC7F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFD8361FE19C7F00B0BC7F /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4CEFD8241FE19C5B00B0BC7F /* MN Driving TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MN Driving TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEFD8281FE19C5B00B0BC7F /* MN_Driving_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MN_Driving_TestUITests.swift; sourceTree = "<group>"; };
 		4CEFD82A1FE19C5B00B0BC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEFD8361FE19C7F00B0BC7F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4CEFD80F1FE19C5B00B0BC7F /* Assets.xcassets */,
 				4CEFD8111FE19C5B00B0BC7F /* LaunchScreen.storyboard */,
 				4CEFD8141FE19C5B00B0BC7F /* Info.plist */,
+				4CEFD8361FE19C7F00B0BC7F /* Question.swift */,
 			);
 			path = "MN Driving Test";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CEFD8371FE19C7F00B0BC7F /* Question.swift in Sources */,
 				4CEFD80B1FE19C5B00B0BC7F /* ViewController.swift in Sources */,
 				4CEFD8091FE19C5B00B0BC7F /* AppDelegate.swift in Sources */,
 			);
